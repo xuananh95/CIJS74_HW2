@@ -1,0 +1,22 @@
+.ipt {
+  font-size: 20px;
+  border: 1px solid #ff4955;
+  color: #ff4955;
+  background-color: white;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 10px;
+  width: 100%;
+}
+.ipt:focus {
+  background-color: #ff4955;
+  color: white;
+}
+
+.ipt:focus::placeholder {
+  color: white;
+}
+
+label {
+  margin-left: 15px;
+}
